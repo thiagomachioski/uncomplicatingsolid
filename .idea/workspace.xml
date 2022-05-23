@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f1b9f7-3960-4a61-902b-f5fdb64e0810" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UncomplicatingSolid.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/L/refactoring/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/L/refactoring/RoboEden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/L/refactoring/RoboSam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/L/violation/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/L/violation/RoboEden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/L/violation/RoboSam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/O/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/O/RoboAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/O/RoboCozinheiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/O/RoboPintor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/O/violation/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/O/violation/RoboCozinheiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/S/refactoring/RoboCozinheiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/S/refactoring/RoboJardineiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/S/refactoring/RoboMotorista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/S/refactoring/RoboPintor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/S/violation/RoboCozinheiroJardineiroPintorMotorista.java" afterDir="false" />
-    </list>
+    <list default="true" id="08f1b9f7-3960-4a61-902b-f5fdb64e0810" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
