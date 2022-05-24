@@ -5,13 +5,11 @@ package O.violation;
  * Violação do Princípio Aberto-Fechado
  */
 public class RoboCozinheiro {
-
     private String nome;
     private String faca;
     private String bolo;
     private String pincel;
     private String parede;
-
 
     public RoboCozinheiro(String nome, String faca, String bolo, String pincel, String parede) {
         this.nome = nome;
@@ -32,5 +30,4 @@ public class RoboCozinheiro {
     public void pintarParede() {
         /** implementação */
     }
-
 }

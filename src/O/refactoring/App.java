@@ -9,7 +9,5 @@ public class App {
 
         roboCozinheiro.executar();
         roboPintor.executar();
-
     }
-
 }

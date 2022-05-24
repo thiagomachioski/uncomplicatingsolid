@@ -17,7 +17,7 @@ public class RoboEden extends RoboSam {
     @Override
     public String fazerCafe() {
         try {
-            throw new Exception("Aceita uma água doce?");
+            throw new Exception("EDEN: Aceita uma água doce?");
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -27,7 +27,7 @@ public class RoboEden extends RoboSam {
     }
 
     public String fazerAguaDoce() {
-        return "aqui está a água doce: " + agua + "+" + this.acucar;
+        return "EDEN: aqui está a água doce: " + agua + "+" + this.acucar;
     }
 
 }

@@ -20,11 +20,11 @@ public class RoboEden extends RoboSam {
     public String fazerCafe() {
         String capuccino = this.cafe + "+" + this.leite + "+" + this.acucar;
 
-        return "Aqui está um capuccino: " + capuccino;
+        return "EDEN: Aqui está um capuccino: " + capuccino;
     }
 
     public String fazerAguaDoce() {
-        return "Aqui está a água doce: " + agua + "+" + this.acucar;
+        return "EDEN: Aqui está a água doce: " + agua + "+" + this.acucar;
     }
     
 }

@@ -30,7 +30,6 @@ public class RoboCozinheiroJardineiroPintorMotorista {
         this.tinta = tinta;
         this.destino = destino;
         this.carro = carro;
-
     }
 
     public void cozinhar() {
