@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f1b9f7-3960-4a61-902b-f5fdb64e0810" name="Changes" comment="FirstCommit">
+      <change afterPath="$PROJECT_DIR$/src/I/violation/Robo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L/refactoring/RoboEden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L/refactoring/RoboEden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L/refactoring/RoboSam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L/refactoring/RoboSam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L/violation/RoboEden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L/violation/RoboEden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/L/violation/RoboSam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/L/violation/RoboSam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/O/refactoring/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/O/refactoring/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/O/violation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/O/violation/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/O/violation/RoboCozinheiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/O/violation/RoboCozinheiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/S/violation/RoboCozinheiroJardineiroPintorMotorista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/S/violation/RoboCozinheiroJardineiroPintorMotorista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/I/violation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I/violation/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,25 +55,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nathalia Pollo\IdeaProjects\UncomplicatingSolid\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.L.refactoring.App">
+  <component name="RunManager" selected="Application.I.violation.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="O.refactoring.App" />
       <module name="UncomplicatingSolid" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="O.refactoring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="I.violation.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="I.violation.App" />
+      <module name="UncomplicatingSolid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="I.violation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,10 +135,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.I.violation.App" />
         <item itemvalue="Application.L.refactoring.App" />
         <item itemvalue="Application.L.violation.App" />
         <item itemvalue="Application.O.violation.App" />
-        <item itemvalue="Application.O.refactoring.App" />
       </list>
     </recent_temporary>
   </component>
