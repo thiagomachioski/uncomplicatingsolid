@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08f1b9f7-3960-4a61-902b-f5fdb64e0810" name="Changes" comment="FirstCommit">
-      <change afterPath="$PROJECT_DIR$/src/I/refactoring/exercicio/abstracts/RoboAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/I/refactoring/exercicio/impl/RoboEden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/I/refactoring/exercicio/impl/RoboSam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/I/refactoring/exercicio/interfaces/IRoboComAntenas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/I/refactoring/exercicio/interfaces/IRoboComBracos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/I/refactoring/exercicio/interfaces/IRoboGiratorio.java" afterDir="false" />
+    <list default="true" id="08f1b9f7-3960-4a61-902b-f5fdb64e0810" name="Changes" comment="implementação da refatoração da classe que viola o ISP">
+      <change afterPath="$PROJECT_DIR$/src/D/violation/pizzaria_do_robo/BracoCortadorDePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D/violation/pizzaria_do_robo/RoboChefService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/I/refactoring/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I/refactoring/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D/violation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D/violation/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +73,20 @@
       <recent name="C:\Users\Nathalia Pollo\IdeaProjects\UncomplicatingSolid\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.I.refactoring.App">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D.violation.App" />
+      <module name="UncomplicatingSolid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="D.violation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="I.refactoring.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="I.refactoring.App" />
       <module name="UncomplicatingSolid" />
@@ -130,26 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="O.violation.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="O.violation.App" />
-      <module name="UncomplicatingSolid" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="O.violation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.I.refactoring.App" />
         <item itemvalue="Application.I.violation.App" />
         <item itemvalue="Application.L.refactoring.App" />
         <item itemvalue="Application.L.violation.App" />
-        <item itemvalue="Application.O.violation.App" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +158,14 @@
       <option name="presentableId" value="Default" />
       <updated>1653347236085</updated>
     </task>
+    <task id="LOCAL-00001" summary="implementação da refatoração da classe que viola o ISP">
+      <created>1653436889371</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653436889371</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,5 +178,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implementação da refatoração da classe que viola o ISP" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementação da refatoração da classe que viola o ISP" />
   </component>
 </project>
