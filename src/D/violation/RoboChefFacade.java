@@ -1,10 +1,10 @@
-package D.violation.pizzaria_do_robo;
+package D.violation;
 
-public class RoboChefService {
+public class RoboChefFacade {
 
     private BracoCortadorDePizza bracoCortadorDePizza;
 
-    public RoboChefService() {
+    public RoboChefFacade() {
         this.bracoCortadorDePizza = new BracoCortadorDePizza();
     }
 
