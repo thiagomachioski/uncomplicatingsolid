@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="08f1b9f7-3960-4a61-902b-f5fdb64e0810" name="Changes" comment="FirstCommit">
-      <change afterPath="$PROJECT_DIR$/src/I/violation/Robo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/I/refactoring/exercicio/abstracts/RoboAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/I/refactoring/exercicio/impl/RoboEden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/I/refactoring/exercicio/impl/RoboSam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/I/refactoring/exercicio/interfaces/IRoboComAntenas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/I/refactoring/exercicio/interfaces/IRoboComBracos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/I/refactoring/exercicio/interfaces/IRoboGiratorio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/I/violation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I/violation/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/I/refactoring/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/I/refactoring/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,25 +64,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/projects/uncomplicatingsolid"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nathalia Pollo\IdeaProjects\UncomplicatingSolid\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.I.violation.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="O.refactoring.App" />
+  <component name="RunManager" selected="Application.I.refactoring.App">
+    <configuration name="I.refactoring.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="I.refactoring.App" />
       <module name="UncomplicatingSolid" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="O.refactoring.*" />
+          <option name="PATTERN" value="I.refactoring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.I.refactoring.App" />
         <item itemvalue="Application.I.violation.App" />
         <item itemvalue="Application.L.refactoring.App" />
         <item itemvalue="Application.L.violation.App" />
