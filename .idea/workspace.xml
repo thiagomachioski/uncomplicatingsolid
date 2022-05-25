@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f1b9f7-3960-4a61-902b-f5fdb64e0810" name="Changes" comment="implementação da refatoração da classe que viola o ISP">
-      <change afterPath="$PROJECT_DIR$/src/D/refactoring/bracos/IBracoCortador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D/refactoring/bracos/impl/BracoCortadorPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D/refactoring/bracos/impl/BracoCortadorPizzaDoce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/D/refactoring/service/RoboChefService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D/refactoring/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D/refactoring/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D/violation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D/violation/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D/violation/pizzaria_do_robo/BracoCortadorDePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D/violation/BracoCortadorDePizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D/violation/pizzaria_do_robo/RoboChefService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D/violation/RoboChefFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +57,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/projects/uncomplicatingsolid"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/uncomplicatingsolid&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nathalia Pollo\IdeaProjects\UncomplicatingSolid\src" />
