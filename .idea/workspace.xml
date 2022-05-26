@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08f1b9f7-3960-4a61-902b-f5fdb64e0810" name="Changes" comment="implementação da refatoração da classe que viola o ISP">
+    <list default="true" id="08f1b9f7-3960-4a61-902b-f5fdb64e0810" name="Changes" comment="FirstCommit">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D/refactoring/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D/refactoring/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D/refactoring/bracos/IBracoCortador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D/refactoring/bracos/IBracoCortador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D/refactoring/bracos/impl/BracoCortadorPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D/refactoring/bracos/impl/BracoCortadorPizzaComFaca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D/refactoring/bracos/impl/BracoCortadorPizzaDoce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D/refactoring/bracos/impl/BracoCortadorPizzaComSerra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D/refactoring/service/RoboChefService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D/refactoring/service/RoboChefService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/D/violation/BracoCortadorDePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D/violation/BracoCortadorDePizza.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +77,7 @@
       <recent name="C:\Users\Nathalia Pollo\IdeaProjects\UncomplicatingSolid\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.D.refactoring.App">
+  <component name="RunManager" selected="Application.D.violation.App">
     <configuration name="D.refactoring.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="D.refactoring.App" />
       <module name="UncomplicatingSolid" />
@@ -138,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.D.refactoring.App" />
         <item itemvalue="Application.D.violation.App" />
+        <item itemvalue="Application.D.refactoring.App" />
         <item itemvalue="Application.I.refactoring.App" />
         <item itemvalue="Application.I.violation.App" />
         <item itemvalue="Application.L.refactoring.App" />
