@@ -5,6 +5,7 @@ public abstract class AppBase implements IApp {
 
     public AppBase(String nomeExemplo) {
         this.nomeExemplo = nomeExemplo;
+        this.executarExemplo();
     }
 
     private static void darEspacos() {

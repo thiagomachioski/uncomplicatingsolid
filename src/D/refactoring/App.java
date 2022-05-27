@@ -13,13 +13,13 @@ public class App extends AppBase {
 
     @Override
     public void exemplo() {
-        RoboChefService roboChefDePizzaService = new RoboChefService(new BracoCortadorPizzaComFaca());
+        RoboChefService roboChefDePizzaService = new RoboChefService(new BracoCortadorPizzaComSerra());
         String pizza = "P_I_Z_Z_A";
         roboChefDePizzaService.cortarPizza(pizza);
 
         System.out.println("------------------------------------------------------------------------");
 
-        RoboChefService roboChefDePizzaDoceService = new RoboChefService(new BracoCortadorPizzaComSerra());
+        RoboChefService roboChefDePizzaDoceService = new RoboChefService(new BracoCortadorPizzaComFaca());
         String pizzaDoce = "P-I-Z-Z-A-D-O-C-E";
         roboChefDePizzaDoceService.cortarPizza(pizzaDoce);
     }
