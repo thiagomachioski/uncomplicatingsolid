@@ -20,6 +20,7 @@ public class App {
         roboEden.girarEmTorno();
         roboEden.rotacionarBracos();
         roboEden.balancarAntenas();
+
         System.out.println("\n\n\n");
     }
 

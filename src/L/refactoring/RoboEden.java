@@ -18,13 +18,13 @@ public class RoboEden extends RoboSam {
 
     @Override
     public String fazerCafe() {
-        String capuccino = this.cafe + "+" + this.leite + "+" + this.acucar;
+        String capuccino = misturarIngredientes(cafe, leite);
 
         return "EDEN: Aqui está um capuccino: " + capuccino;
     }
 
     public String fazerAguaDoce() {
-        return "EDEN: Aqui está a água doce: " + agua + "+" + this.acucar;
+        return "EDEN: Aqui está a água doce: " + misturarIngredientes(agua, agua);
     }
     
 }

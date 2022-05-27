@@ -2,6 +2,8 @@ package L.violation;
 
 import jdk.jshell.spi.ExecutionControl;
 
+import java.util.Arrays;
+
 /**
  * LSP Violation
  * Violação do Princípio da Substituição de Liskov
@@ -12,18 +14,11 @@ public class RoboEden extends RoboSam {
 
     public RoboEden(String agua, String acucar) {
         super(null, acucar);
-
         this.agua = agua;
     }
 
-    @Override
-    public String fazerCafe() throws ExecutionControl.NotImplementedException {
-        throw new ExecutionControl.NotImplementedException("EDEN: desculpe-me! Só sei fazer água. \n" +
-                "Aceita uma água doce?");
-    }
-
     public String fazerAguaDoce() {
-        return "EDEN: aqui está a água doce: " + agua + "+" + this.acucar;
+        return "EDEN: aqui está a água doce: " + misturarIngredientes(agua, acucar);
     }
 
 }

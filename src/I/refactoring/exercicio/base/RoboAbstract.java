@@ -1,4 +1,4 @@
-package I.refactoring.exercicio;
+package I.refactoring.exercicio.base;
 
 public abstract class RoboAbstract {
 

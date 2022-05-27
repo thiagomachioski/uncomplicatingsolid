@@ -1,6 +1,6 @@
 package I.refactoring.exercicio.base.impl;
 
-import I.refactoring.exercicio.RoboAbstract;
+import I.refactoring.exercicio.base.RoboAbstract;
 import I.refactoring.exercicio.base.IRoboComBracos;
 import I.refactoring.exercicio.base.IRoboGiratorio;
 

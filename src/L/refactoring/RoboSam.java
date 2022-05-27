@@ -11,7 +11,11 @@ public class RoboSam {
     }
 
     public String fazerCafe() {
-        return "SAM: Aqui está o café: " + cafe + "+" + acucar;
+        return "SAM: Aqui está o café: " + misturarIngredientes(cafe, acucar);
+    }
+
+    protected String misturarIngredientes(String ingrediente1, String ingrediente2) {
+        return ingrediente1.toUpperCase() + ingrediente2.toUpperCase();
     }
 
 }
