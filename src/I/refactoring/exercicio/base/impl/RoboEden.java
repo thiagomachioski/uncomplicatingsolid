@@ -1,8 +1,8 @@
-package I.refactoring.exercicio.impl;
+package I.refactoring.exercicio.base.impl;
 
-import I.refactoring.exercicio.abstracts.RoboAbstract;
-import I.refactoring.exercicio.interfaces.IRoboComBracos;
-import I.refactoring.exercicio.interfaces.IRoboGiratorio;
+import I.refactoring.exercicio.RoboAbstract;
+import I.refactoring.exercicio.base.IRoboComBracos;
+import I.refactoring.exercicio.base.IRoboGiratorio;
 
 public class RoboEden extends RoboAbstract implements IRoboGiratorio, IRoboComBracos {
 

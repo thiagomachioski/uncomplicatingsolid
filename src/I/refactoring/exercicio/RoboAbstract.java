@@ -1,8 +1,8 @@
-package I.refactoring.exercicio.abstracts;
+package I.refactoring.exercicio;
 
 public abstract class RoboAbstract {
 
-    private String nome;
+    private final String nome;
 
     public RoboAbstract(String nome) {
         this.nome = nome;

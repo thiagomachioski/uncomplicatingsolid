@@ -1,4 +1,4 @@
-package I.refactoring.exercicio.interfaces;
+package I.refactoring.exercicio.base;
 
 public interface IRoboComAntenas {
 

@@ -6,6 +6,6 @@ public class BracoCortadorPizzaComSerra implements IBracoCortador {
     @Override
     public String cortar(String pizza) {
         String pizzaCortada = pizza.replaceAll("-", " ");
-        return pizza + " -- cortada ->  " + pizzaCortada;
+        return pizza + " -- cortada com braço de serra ->  " + pizzaCortada;
     }
 }
