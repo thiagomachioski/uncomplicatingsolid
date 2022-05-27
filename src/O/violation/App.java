@@ -2,26 +2,19 @@ package O.violation;
 
 public class App {
 
-    private enum Acao {
-        CORTAR, PINTAR
-    }
-
     public static void main(String[] args) {
-        System.out.println("Robo Cozinheiro: ");
+        System.out.println("\n\n\n");
+        System.out.println("EXECUTANDO O EXEMPLO: VIOLACAO - ABERTO FECHADO \n");
+
         RoboCozinheiro roboCozinheiro = new RoboCozinheiro("Cozinheiro", "faca", "bolo", null, null);
-        executar(roboCozinheiro, Acao.CORTAR);
+        roboCozinheiro.executar(RoboCozinheiro.Acao.CORTAR);
 
-        System.out.println("Robo pintor: ");
+        System.out.println("-----------------------------------------------------------------------");
+
         roboCozinheiro = new RoboCozinheiro("Pintor", null, null, "pincel", "parede");
-        executar(roboCozinheiro, Acao.PINTAR);
+        roboCozinheiro.executar(RoboCozinheiro.Acao.PINTAR);
+
+        System.out.println("\n\n\n");
     }
 
-    private static void executar(RoboCozinheiro robo, Acao acao) {
-        System.out.println(robo.getNome() + " vai " + acao.toString());
-        if (acao.equals(Acao.CORTAR)) {
-            robo.cortarBolo();
-        } else if (acao.equals(Acao.PINTAR)) {
-            robo.pintarParede();
-        }
-    }
 }

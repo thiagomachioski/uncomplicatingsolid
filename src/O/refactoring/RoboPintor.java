@@ -17,8 +17,7 @@ public class RoboPintor extends RoboAbstract {
 
     @Override
     public void executar() {
-        System.out.println(this.nome + " vai PINTAR");
-        /** implementação */
+        System.out.println(this.nome + " pintou a " + parede + " com o " + pincel);
     }
 
 }

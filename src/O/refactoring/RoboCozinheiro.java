@@ -17,8 +17,7 @@ public class RoboCozinheiro extends RoboAbstract {
 
     @Override
     public void executar() {
-        System.out.println(this.nome + " vai CORTAR");
-        /** implementação */
+        System.out.println(this.nome + " cortou o " + bolo + " com a " + faca);
     }
     
 }

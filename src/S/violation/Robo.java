@@ -4,7 +4,7 @@ package S.violation;
  * SRP Violation
  * Violação do Princípio da Responsabilidade Única
  */
-public class RoboCozinheiroJardineiroPintorMotorista {
+public class Robo {
 
     private String tempero;
     private String comida;
@@ -16,7 +16,7 @@ public class RoboCozinheiroJardineiroPintorMotorista {
     private String carro;
 
 
-    public RoboCozinheiroJardineiroPintorMotorista(
+    public Robo(
             String tempero, String comida,
             String planta, String adubo,
             String parede, String tinta,

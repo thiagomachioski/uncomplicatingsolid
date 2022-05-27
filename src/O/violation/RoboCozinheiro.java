@@ -19,15 +19,29 @@ public class RoboCozinheiro {
         this.parede = parede;
     }
 
-    public String getNome() {
-        return this.nome;
+    private void cortarBolo() {
+        System.out.println(this.nome + " cortou o " + bolo + " com a " + faca);
     }
 
-    public void cortarBolo() {
-        /** implementação */
+    private void pintarParede() {
+        System.out.println(this.nome + " pintou a " + parede + " com o " + pincel);
     }
 
-    public void pintarParede() {
-        /** implementação */
+    /**
+     *
+     * Método modificado!
+     * @param acao - adicionado para suportar a acao PINTAR
+     *
+     */
+    public void executar(Acao acao) {
+        if (acao.equals(Acao.CORTAR)) {
+            cortarBolo();
+        } else if (acao.equals(Acao.PINTAR)) {
+            pintarParede();
+        }
+    }
+
+    public enum Acao {
+        CORTAR, PINTAR
     }
 }
