@@ -1,11 +1,10 @@
 package D.refactoring.config;
 
-public abstract class AppBase implements IApp {
+public abstract class ExemploBase implements IExemplo {
     String nomeExemplo;
 
-    public AppBase(String nomeExemplo) {
+    public ExemploBase(String nomeExemplo) {
         this.nomeExemplo = nomeExemplo;
-        this.executarExemplo();
     }
 
     private static void darEspacos() {

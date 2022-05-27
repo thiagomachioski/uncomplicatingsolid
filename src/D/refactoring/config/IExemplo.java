@@ -1,6 +1,6 @@
 package D.refactoring.config;
 
-public interface IApp {
+public interface IExemplo {
     
     void exemplo();
     

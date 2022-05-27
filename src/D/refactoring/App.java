@@ -1,27 +1,18 @@
 package D.refactoring;
 
-import D.refactoring.bracos.impl.BracoCortadorPizzaComFaca;
-import D.refactoring.bracos.impl.BracoCortadorPizzaComSerra;
-import D.refactoring.service.RoboChefService;
-import D.refactoring.config.AppBase;
+import D.refactoring.config.ExemploBase;
+import D.refactoring.config.impl.DIPExemploImpl;
 
-public class App extends AppBase {
+public class App  {
 
-    public App() { super("REFATORACAO - PRINCIPIO DA INVERSAO DE DEPENDENCIA"); }
+    public static void main(String[] args) {
+        DIPExemploImpl exemploInversaoDaDependencia = new DIPExemploImpl();
 
-    public static void main(String[] args) { new App(); }
+        executarExemplo(exemploInversaoDaDependencia);
+    }
 
-    @Override
-    public void exemplo() {
-        RoboChefService roboChefDePizzaService = new RoboChefService(new BracoCortadorPizzaComSerra());
-        String pizza = "P_I_Z_Z_A";
-        roboChefDePizzaService.cortarPizza(pizza);
-
-        System.out.println("------------------------------------------------------------------------");
-
-        RoboChefService roboChefDePizzaDoceService = new RoboChefService(new BracoCortadorPizzaComFaca());
-        String pizzaDoce = "P-I-Z-Z-A-D-O-C-E";
-        roboChefDePizzaDoceService.cortarPizza(pizzaDoce);
+    private static void executarExemplo(ExemploBase base) {
+        base.executarExemplo();
     }
 
 }
